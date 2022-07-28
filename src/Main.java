@@ -11,9 +11,9 @@ public class Main {
 
             for (int a = value; a >= 1; a = a - 1) {
                 if (a * i == value) {
-                    System.out.println(a + "*" + i);
-                }
 
+                }
+                System.out.println(a + "*" + i);
             }
 
         }
