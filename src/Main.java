@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.пшеprintln("¬ведите число, которое необходимо разложить на множители");
+        System.out.println("¬ведите число, которое необходимо разложить на множители");
         int value = new Scanner(System.in).nextInt();
 
 
