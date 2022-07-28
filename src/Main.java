@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("¬веденное число будет разложено на множители");
+        System.out.println("¬ведите целое число. которое необходимо разложить на множители");
         int value = new Scanner(System.in).nextInt();
 
 
@@ -11,9 +11,9 @@ public class Main {
 
             for (int a = value; a >= 1; a = a - 1) {
                 if (a * i == value) {
-
+                    System.out.println(a + "*" + i);
                 }
-                System.out.println(a + "*" + i);
+
             }
 
         }
